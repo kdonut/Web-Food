@@ -1,0 +1,120 @@
+
+
+body {
+    font-family:sans-serif;
+    margin: 0;
+    padding:0;
+    width: 100%;
+    background-color: rgb(59, 59, 56);
+}
+
+#main-header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 60px;   
+    position: absolute;
+    width: 100%;
+    box-sizing: border-box;
+    top:0;
+    left:0;
+    right:0;
+    background-color: rgb(26, 25, 25);
+}
+
+nav li {
+    margin-left: 20px;
+}
+
+nav a {
+    color: rgb(185, 131, 31);
+    font-size: 20px;
+    text-decoration: none;
+    padding: 12px;
+    text-shadow: 1px 1px 2px rgb(0,0,0,0.2);
+    border-radius: 6px;
+}
+
+nav a:hover {
+    color:rgb(77,77,77);
+    background-color: rgb(228, 163, 44);
+}
+
+#main-header a {
+    padding: 10px;
+    font-family: "Oleo Script",sans-serif;
+    color:rgb(185, 131, 31);
+    font-size: 24px;
+    text-decoration:none;
+    text-transform: uppercase;
+    text-shadow: 1px 1px 2px black;
+    font-weight: 700;
+}
+#main-header a:hover{
+    background-color: transparent;
+}
+#main-header ul {
+    list-style:none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+   
+}
+
+#main-header ul a {
+    text-decoration: none;
+}
+
+main h1 {
+    color:rgb(185, 131, 31);
+    margin:100px auto 24px auto;  
+    font-size: 48px;
+    text-align: center;
+}
+
+#latest-products {
+    width: 80%;
+    margin:50px auto;
+}
+
+#latest-products ul {
+    display:grid;
+    list-style: none;
+    grid-template-columns: 1fr 1fr;
+    gap:16px;
+    margin: 0;
+    padding: 0;
+    
+}
+.food-items {
+    background-color: rgb(228,206,182);
+    border-radius: 6px;
+    overflow: hidden;
+    
+}
+
+
+.food-items img {
+    height:240px;
+    width: 100%;
+    object-fit: cover;
+    
+}
+
+.food-item-content {
+    padding: 16px;
+    text-align: center;
+}
+
+.btn {
+    background-color: rgb(228,157,44);
+    color: white;
+    border-radius: 4px;
+    padding: 8px 24px ;
+    text-decoration: none;
+}
+.btn:hover{
+    background-color:rgb(238, 177, 80);
+}
