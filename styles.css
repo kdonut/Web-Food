@@ -19,7 +19,7 @@ body {
     box-sizing: border-box;
     top:0;
     left:0;
-    right:0;
+    right:1;
     background-color: rgb(26, 25, 25);
 }
 
